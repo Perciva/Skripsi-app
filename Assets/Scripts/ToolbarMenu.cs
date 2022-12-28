@@ -10,7 +10,7 @@ public class ToolbarMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Starting");
     }
 
     // Update is called once per frame
@@ -20,6 +20,7 @@ public class ToolbarMenu : MonoBehaviour
     }
     public void ToggleBurgerMenu()
     {
+        // Debug.Log("BORGER");
         if (burgerMenu.activeSelf)
         {
             burgerMenu.SetActive(false);
