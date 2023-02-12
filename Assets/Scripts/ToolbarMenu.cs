@@ -7,16 +7,17 @@ using UnityEngine.SceneManagement;
 public class ToolbarMenu : MonoBehaviour
 {
     public GameObject burgerMenu;
+    public GameObject FE = null;
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("Starting");
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Countdown.decrement();
     }
     public void ToggleBurgerMenu()
     {
@@ -33,8 +34,22 @@ public class ToolbarMenu : MonoBehaviour
 
     public void GoToEncrypt()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Encrypt Tool", LoadSceneMode.Single);
     }
-    
-    
+    public void GoToStegano()
+    {
+        SceneManager.LoadScene("SteganoTool", LoadSceneMode.Single);
+    }
+    public void GoToWeb()
+    {
+        SceneManager.LoadScene("WebSQL", LoadSceneMode.Single);
+    }
+    public void ToolgeFile()
+    {
+        if(FE != null){
+            FE.SetActive(!FE.activeSelf);
+            return;
+        }
+        SceneManager.LoadScene("Client's computer ransomware", LoadSceneMode.Single);
+    }
 }

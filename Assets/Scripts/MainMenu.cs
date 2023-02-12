@@ -9,7 +9,8 @@ public class MainMenu : MonoBehaviour
     //buat masuk ke loading screen 
     public void StartButton()
     {
-        SceneManager.LoadScene(1);
+        Countdown.start_time = 10800f;
+        SceneManager.LoadScene("Client's computer ransomware", LoadSceneMode.Single);
     }
     
 
