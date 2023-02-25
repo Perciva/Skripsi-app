@@ -9,7 +9,7 @@ public class Countdown : MonoBehaviour
 {
     
     float current_time;
-    public static float start_time; //3 hours in seconds
+    public static float start_time = 10000; //3 hours in seconds
 
     [SerializeField] Text countdown_text; 
 

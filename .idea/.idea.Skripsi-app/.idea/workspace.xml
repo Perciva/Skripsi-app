@@ -2,41 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f6d16ee-0100-4e44-ba91-9b8e17cb4780" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/AffineCipherController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/AffineCipherController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/Base32HashController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/Base32HashController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/Base64HashController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/Base64HashController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/CaesarCipherController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/CaesarCipherController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/CipherController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/CipherController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/VigenereCipherController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherController/VigenereCipherController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/AffineCipher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/AffineCipher.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/Base32Hash.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/Base32Hash.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/Base64Hash.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/Base64Hash.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/CaesarCipher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/CaesarCipher.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/Cipher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/Cipher.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/VigenereCipher.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Encryption/CipherModels/VigenereCipher.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tools/Validator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tools/Validator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Highscore.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Highscore/GameHighscore.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Highscore/GameHighscore.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Highscore/GameHighscoreController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Highscore/GameHighscoreController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tools/Filebase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Tools/Filebase.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Skripsi-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Skripsi-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ToolBar.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ToolBar.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Desktop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ToolbarMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ToolbarMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Input key scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Input key scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SteganoTool.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SteganoTool.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Countdown.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Countdown.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ReadInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ReadInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -156,6 +134,14 @@
       <workItem from="1672169946185" duration="10964000" />
       <workItem from="1672220029602" duration="8277000" />
       <workItem from="1672251603117" duration="3459000" />
+      <workItem from="1676200042019" duration="15118000" />
+      <workItem from="1676303920519" duration="1211000" />
+      <workItem from="1676383160931" duration="602000" />
+      <workItem from="1676553468828" duration="3115000" />
+      <workItem from="1676654088899" duration="565000" />
+      <workItem from="1676985158784" duration="588000" />
+      <workItem from="1677241818322" duration="462000" />
+      <workItem from="1677258892738" duration="5794000" />
     </task>
     <servers />
   </component>
