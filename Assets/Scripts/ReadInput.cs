@@ -11,7 +11,7 @@ public class ReadInput : MonoBehaviour
 
     void Start()
     {
-        resultText.text = "";
+        if(resultText)resultText.text = "";
     }
 
     private void CorrectKey()
