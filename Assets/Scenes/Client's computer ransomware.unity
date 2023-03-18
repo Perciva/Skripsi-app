@@ -34907,7 +34907,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d42aebe9b28cb499b30623ff057506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start_time: 10800
   countdown_text: {fileID: 328074487}
 --- !u!4 &2009615411
 Transform:
@@ -34944,6 +34943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0225fc70a5e6124e85282b192a13f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultText: {fileID: 0}
 --- !u!1 &2011614565
 GameObject:
   m_ObjectHideFlags: 0
