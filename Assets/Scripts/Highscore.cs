@@ -30,7 +30,7 @@ public class Highscore : MonoBehaviour
             ErrorText.text = "Username Must Not be Empty!";
             return;
         }
-        int score = 7500;
+        int score = (int)Countdown.start_time;
         newScore = new GameHighscore(username,score);
         
         lala();

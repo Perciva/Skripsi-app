@@ -29,7 +29,10 @@ public class ReadInput : MonoBehaviour
     public void read_string(string text)
     {
         input = text;
-
+        if(input == "DUAR") {
+            CorrectKey();
+            return;
+        }
         Debug.Log(input);
         FalseKey();
     }
