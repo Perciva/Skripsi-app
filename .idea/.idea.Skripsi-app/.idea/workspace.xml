@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f6d16ee-0100-4e44-ba91-9b8e17cb4780" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Skripsi-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Skripsi-app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
@@ -129,7 +130,7 @@
       <workItem from="1676985158784" duration="588000" />
       <workItem from="1677241818322" duration="462000" />
       <workItem from="1677258892738" duration="9573000" />
-      <workItem from="1679161137806" duration="223000" />
+      <workItem from="1679161137806" duration="1742000" />
     </task>
     <servers />
   </component>
