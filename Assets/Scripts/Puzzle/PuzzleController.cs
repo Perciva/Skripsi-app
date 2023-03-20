@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class PuzzleController : MonoBehaviour
 {
     [SerializeField] private TMP_Text title;
-    [SerializeField] private TMP_Text question;
+    [SerializeField] private TMP_InputField question;
     [SerializeField] private TMP_Text checkKeyText;
     [SerializeField] private GameObject questionGO;
     private Puzzle.Puzzle a;

@@ -41,8 +41,11 @@ public class GameHighscoreController
     {
         
         highscores = fb.LoadHighscore();
-        if(highscores.Count == 0)
-            sortHighscores();
+        if (highscores == null)
+        {
+            highscores = new List<GameHighscore>();
+        }
+        sortHighscores();
         // foreach(GameHighscore a in  highscores)
         // {
         //     Debug.Log("Username: " + a.Username + " Score: " + a.Score);

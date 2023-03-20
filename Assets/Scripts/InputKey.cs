@@ -39,6 +39,8 @@ public class InputKey : MonoBehaviour
     {
         resultText.color = Color.green;
         resultText.text = "Correct Key! Congratulation!";
+        
+        
     }
 
     private void FalseKey()

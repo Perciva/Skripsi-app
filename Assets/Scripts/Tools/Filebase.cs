@@ -59,6 +59,6 @@ public class Filebase
             List<GameHighscore> list = JsonConvert.DeserializeObject<List<GameHighscore>>(File.ReadAllText(path));
             return list;
         }
-        return default;
+        return null;
     }
 }

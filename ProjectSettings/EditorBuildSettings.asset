@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SteganoTool.unity
     guid: 8c5ef53cde8519b4bad09e0d59faa8bc
+  - enabled: 1
+    path: Assets/Scenes/HighScore.unity
+    guid: e6ca99959d5380d4182ce38e1d17ec97
   m_configObjects: {}

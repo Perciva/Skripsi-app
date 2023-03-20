@@ -40,7 +40,7 @@ public class Highscore : MonoBehaviour
     {
         hscontroller.LoadHighscore();
         hscontroller.addHighscore(newScore);
-         // hscontroller.SaveHighscore();
+        hscontroller.SaveHighscore();
         List<GameHighscore> highscores = hscontroller.GetHighscore();
         // highscores.Add(newScore);
         foreach (GameHighscore a in highscores)
