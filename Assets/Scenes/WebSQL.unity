@@ -2669,6 +2669,7 @@ MonoBehaviour:
   errorBoxObj: {fileID: 453653300}
   errorText: {fileID: 453653302}
   keyObject: {fileID: 902439324}
+  keyText: {fileID: 902439325}
 --- !u!1 &1413279183
 GameObject:
   m_ObjectHideFlags: 0

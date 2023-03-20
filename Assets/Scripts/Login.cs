@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Puzzle;
 using TMPro;
 using UnityEngine;
 
@@ -10,6 +11,7 @@ public class Login : MonoBehaviour
     [SerializeField] private GameObject errorBoxObj;
     [SerializeField] private TMP_Text errorText;
     [SerializeField] private GameObject keyObject;
+    [SerializeField] private TMP_Text keyText;
     void Start()
     {
         passwdField.contentType = TMP_InputField.ContentType.Password;
@@ -69,7 +71,17 @@ public class Login : MonoBehaviour
 
     private void ShowKey()
     {
+        PuzzleGenerator gen = PuzzleGenerator.Instance;
+        if(gen.GetPuzzle(5) is WebPuzzle)
+        {
+            WebPuzzle puzzle = gen.GetPuzzle(5) as WebPuzzle;
+            Debug.Log(puzzle is WebPuzzle);
+            Debug.Log(puzzle.WebKey);
+            keyText.text = puzzle.WebKey;
+            
+        }
         keyObject.SetActive(true);
+        
     }
 
 

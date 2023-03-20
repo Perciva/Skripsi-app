@@ -8,5 +8,7 @@
         {
             this.webKey = webKey;
         }
+
+        public string WebKey => webKey;
     }
 }

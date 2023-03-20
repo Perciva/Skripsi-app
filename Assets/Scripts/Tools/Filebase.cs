@@ -40,6 +40,16 @@ public class Filebase
         }
         return default;
     }
+    public List<WebPuzzle> LoadWebPuzzles()
+    {
+        String path = "Assets/Resources/Questions/Web.json";
+        if (File.Exists(path))
+        {
+            List<WebPuzzle> list = JsonConvert.DeserializeObject<List<WebPuzzle>>(File.ReadAllText(path));
+            return list;
+        }
+        return default;
+    }
 
     public List<GameHighscore> LoadHighscore()
     {

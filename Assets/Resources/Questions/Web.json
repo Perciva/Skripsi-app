@@ -1,16 +1,16 @@
 [
    {
-      "Title":"Otto",
-      "Question":"web NYEH?",
-      "Web Key": "asdasd",
-      "Key":"asdasd",
+      "Title":"Login",
+      "Question":"try to log in on browser",
+      "webKey": "sqlieasy",
+      "Keya":"sqlieasy",
       "Type":"Web"
    },
    {
-      "Title":"dipa",
-      "Question":"web NYEH?",
-      "Web Key":"try to decrypt me lalala",
-      "Key":"rami",
+      "Title":"Login",
+      "Question":"try to log in on browser and get a key",
+      "webKey":"c3FsaW5tZWRpdW0=",
+      "Keya":"sqlinmedium",
       "Type":"Web"
    },
 ]
