@@ -7,7 +7,7 @@ using UnityEngine;
 public class GameHighscoreController
 {
     private List<GameHighscore> highscores = new List<GameHighscore>();
-    private Filebase fb = new Filebase();
+    private Filebase fb = Filebase.Instance;
     public void addHighscore(GameHighscore hs)
     {
         highscores.Add(hs);

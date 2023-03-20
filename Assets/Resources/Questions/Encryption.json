@@ -1,0 +1,32 @@
+[
+   {
+      "Title":"Cryptography",
+      "Question":"can you decrypt this message?\nVdkbnldSnBqxosnfqzogx",
+      "Keya":"WelcomeToCryptography",
+      "Type":"Encryption"
+   },
+   {
+      "Title":"ServerError",
+      "Question":"Rivhw chbv kv gemz iebflbkdvvy ee heksimec kvfacva, ydvv dw pnli yvx: FNVOCXLMGY",
+      "Keya":"BWAKLYUVSH",
+      "Type":"Encryption"
+   },
+   {
+      "Title":"Double Security",
+      "Question":"We managed to Decyrpt the key but it came out like this: <b>VDFuWXNwQWMzZQ==</b>\n can you help us figure out the key?",
+      "Keya":"T1nYspAc3e",
+      "Type":"Encryption"
+   },
+   {
+      "Title":"Math Time",
+      "Question":"Instruction: \nFor each letter of cipher text its position in the alphabet is the position of the original letter multiplied by 4 and shifted by 15 characters.\n alphabet consists of letters from 'a' to 'z' and symbol '_'. \n Please get the cipher text from this string <b>math_is_hard</b>",
+      "Keya":"jpkqluglqpca",
+      "Type":"Encryption"
+   },
+   // {
+   //    "Title":"Karen",
+   //    "Question":"sdfsdf",
+   //    "Keya":"sdfsdf",
+   //    "Type":"Encryption"
+   // },
+]

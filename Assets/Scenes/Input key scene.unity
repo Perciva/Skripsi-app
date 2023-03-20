@@ -263,8 +263,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: -19.627}
-  m_SizeDelta: {x: 722.5957, y: 64.0534}
+  m_AnchoredPosition: {x: 32.45, y: -25.91}
+  m_SizeDelta: {x: 1310.98, y: 126.87}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &431307482
 MonoBehaviour:
@@ -323,10 +323,10 @@ MonoBehaviour:
   m_OnDidEndEdit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 746827987}
-        m_TargetAssemblyTypeName: ReadInput, Assembly-CSharp
-        m_MethodName: read_string
-        m_Mode: 0
+      - m_Target: {fileID: 746827988}
+        m_TargetAssemblyTypeName: InputKey, Assembly-CSharp
+        m_MethodName: CheckKey
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -673,6 +673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 746827986}
   - component: {fileID: 746827987}
+  - component: {fileID: 746827988}
   m_Layer: 0
   m_Name: Input key scene
   m_TagString: Untagged
@@ -703,11 +704,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 746827985}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b0225fc70a5e6124e85282b192a13f5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &746827988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746827985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb887dae0bc8c046936a3f93e7bb445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputKey: {fileID: 431307482}
   resultText: {fileID: 433700032}
 --- !u!1 &884199384
 GameObject:
@@ -892,7 +906,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 1
@@ -1172,7 +1186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1186,13 +1200,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 300
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Enter the key
+  m_Text: Enter Key Here
 --- !u!222 &1777995913
 CanvasRenderer:
   m_ObjectHideFlags: 0
