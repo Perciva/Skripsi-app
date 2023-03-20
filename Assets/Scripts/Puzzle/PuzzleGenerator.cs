@@ -42,8 +42,11 @@ namespace Puzzle
             Debug.Log("Web Key: "+(_puzzles[4]as WebPuzzle).WebKey );
             _combinedKey = _combinedKey + web[a].Key;
 
+            stegPuzzle sp = new stegPuzzle("Steganography","please open the steganography tool and find the key","steganography","1483");
+            _puzzles.Add(sp);
+
+            _combinedKey = _combinedKey + "1483";
         }
-        
 
         public bool CheckCombinedKey(string key)
         {

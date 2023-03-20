@@ -4,6 +4,7 @@ using Puzzle;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class InputKey : MonoBehaviour
 {
@@ -20,13 +21,20 @@ public class InputKey : MonoBehaviour
     public void CheckKey()
     {
         string input = inputKey.text;
-        if(generator.CheckCombinedKey(input)==true) {
+        if(generator.CheckCombinedKey(input)==true) { // == "DUAR"
             CorrectKey();
+            StartCoroutine(test());
             return;
         }
         Debug.Log(input);
         FalseKey();
     }
+
+    IEnumerator test(){
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("HighScore", LoadSceneMode.Single);
+    }
+
     private void CorrectKey()
     {
         resultText.color = Color.green;
