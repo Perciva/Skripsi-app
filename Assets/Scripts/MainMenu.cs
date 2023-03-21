@@ -5,14 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    
+    public GameObject g;
     //buat masuk ke loading screen 
     public void StartButton()
     {
         Countdown.start_time = 10800f;
-        SceneManager.LoadScene("Client's computer ransomware", LoadSceneMode.Single);
+        SceneManager.LoadScene("Loading Scene", LoadSceneMode.Single);
     }
     
+    public void toggle(){
+        g.SetActive(true);
+    }
 
     //kalo player keluar dari game
     public void ExitButton()
